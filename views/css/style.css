@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+
+.login_outer {
+	margin: 15% auto;
+	border: 1px solid black;
+	background-color: grey;
+	width: 300px;
+	height: 150px;
+	border-radius: 20px;
+	padding: 15px;
+}
+
+.login_inner {
+	margin: 5% auto;
+}
+
+label {
+	color: white;
+}
+
+td {
+	padding: 5px;
+}
+
+.btn_center {
+	margin: 4% auto;
+	width: 70px;
+}
+
+.hightlight {
+	border: 2px solid lightblue;
+}
+
+.error {
+	font-size: 13px;
+	width: 200px;
+	height: 1px;
+	color: yellow;
+}
+
+.center {
+	margin: 4% auto;
+}
+
+.payslip_outer {
+	background-color: white; float : left;
+	border-collapse: collapse;
+	width: 70%;
+	float: left;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.uline {
+	text-decoration: underline;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.logout_outer {
+	border-radius: 5px;
+	border: 1px solid white;
+	padding: 4px;
+	width: 5%;
+	float: right;
+}
+
+.logout_outer:hover {
+	background-color: white;
+}
+
+.bck_color {
+	background-color: lightblue;
+}
+
+.pdf {
+	margin-right: 7%;
+	float: right;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.pdf:hover{
+	border:2px solid lightblue;
+	color:white;
+}
